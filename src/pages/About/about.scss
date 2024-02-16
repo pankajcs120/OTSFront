@@ -1,0 +1,23 @@
+/* About.css */
+
+.about-container {
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    background-image: url("photo11.jpg"); /* Replace with your image URL */
+    background-size: 200px; /* Adjust the size as needed */
+    background-repeat: repeat;
+  }
+  
+  .about-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Background color with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  }
+
+  h1 {
+    color: #ffffff;
+  }
+  

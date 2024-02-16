@@ -1,0 +1,83 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://wallpapers.com/images/hd/profile-picture-background-l1y44ijo20ooanql.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .profile-image {
+      border-radius: 50%;
+      margin-right: 20px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .profile-info {
+      text-align: left;
+
+      h1 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      p {
+        margin: 5px 0;
+        color: #555;
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .gig-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 5px;
+
+      a {
+        text-decoration: none;
+        color: #3498db;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .back-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+}
