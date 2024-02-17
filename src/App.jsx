@@ -1,5 +1,5 @@
 import "./app.scss";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -37,7 +37,7 @@ function App() {
     );
   };
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
