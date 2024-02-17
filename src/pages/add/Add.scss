@@ -3,27 +3,25 @@
   justify-content: center;
 
   .container {
-    width: 80%;
-    padding: 5% 0;
+    width: 1400px;
+    padding: 50px 0px;
 
     h1 {
       width: max-content;
-      margin-bottom: 3%;
-      color: #333; /* Darkened text color for better visibility */
-      font-weight: 500; /* Increased font weight for headings */
-      font-size: 24px; /* Increased font size for headings */
+      margin-bottom: 30px;
+      color: rgb(0, 0, 0);
+      font-weight: 300;
     }
 
     .sections {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      gap: 2%;
+      gap: 10px;
 
       label {
-        color: #333;
+        color: rgb(0, 0, 0);
         font-size: 18px;
-        font-weight: 500;
       }
 
       .info,
@@ -31,64 +29,52 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 2%;
+        gap: 10px;
         justify-content: space-between;
 
         input,
         select,
         textarea {
-          padding: 2%;
-          height: 2%;
-          border: 1px solid #ddd; /* Added border for input elements */
-          border-radius: 5px; /* Rounded corners for input elements */
-          font-size: 16px; /* Increased font size for better readability */
+          padding: 20px;
+          height: 7px;
         }
 
-        .images {
+        .images{
           display: flex;
           align-items: center;
-          gap: 2%;
+          gap: 20px;
 
-          .imagesInputs {
+          .imagesInputs{
             display: flex;
             flex-direction: column;
-            gap: 2%;
+            gap: 20px;
           }
         }
 
         button {
           border: none;
-          padding: 2%;
+          padding: 20px;
           color: white;
           font-weight: 500;
-          font-size: 16px;
+          font-size: 18px;
           background-color: #010101;
           cursor: pointer;
-          border-radius: 5px; /* Rounded corners for buttons */
-          transition: background-color 0.3s ease; /* Smooth transition on hover */
-
-          &:hover {
-            background-color: #1dbf73; /* Dark green on hover */
-          }
         }
 
-        .add {
+        .add{
           display: flex;
           justify-content: space-between;
 
-          input {
+          input{
             width: 80%;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 2%;
           }
         }
 
-        .addedFeatures {
+        .addedFeatures{
           display: flex;
-          gap: 2%;
+          gap: 20px;
 
-          button {
+          button{
             height: 30px;
             font-size: 12px;
             font-weight: 400;
@@ -97,36 +83,28 @@
             border: 1px solid red;
             display: flex;
             align-items: center;
-            gap: 2%;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-
-            &:hover {
-              background-color: #ffcccc; /* Light red on hover */
-            }
+            gap: 20px;
           }
         }
       }
     }
   }
-
   .createButtonContainer {
-    margin-top: 2%;
+    margin-top: 2%; // This will push the container to the bottom
     text-align: center;
-
+  
     button {
-      padding: 1.5% 4%;
+      padding: 10px 40px;
       font-size: 16px;
       background-color: black;
       color: #fff;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
-
-      &:hover {
-        background-color: #333; /* Darken the color on hover for better visibility */
-      }
+    }
+  
+    button:hover {
+      background-color: black;
     }
   }
 }

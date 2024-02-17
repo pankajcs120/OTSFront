@@ -110,7 +110,7 @@ const Add = () => {
               id=""
               placeholder=""
               cols="0"
-              rows="0"
+              rows="16"
               onChange={handleChange}
             ></textarea>
             
