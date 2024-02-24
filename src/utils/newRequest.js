@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-  baseURL: "https://finalots.onrender.com/api/",
+  baseURL: "https://otsweb.onrender.com/api/",
   withCredentials: true,
 });
 
