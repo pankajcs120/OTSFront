@@ -8,5 +8,9 @@
         "src": "/register",
         "dest": "/"
     }
+    {
+        "src": "/About",
+        "dest": "/"
+    }
 ]
 }
