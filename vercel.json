@@ -9,7 +9,7 @@
         "dest": "/"
     }
     {
-        "src": "/About",
+        "src": "/about",
         "dest": "/"
     }
 ]
